@@ -1,0 +1,30 @@
+name: ysj_card
+description: Yahffa S Jagrup Card. A cool representation of contact information. Also acts as a generic Flutter Project Demo
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: # State Management - Provider
+  path_provider: # File System - Access
+  auto_size_text: # Text Scaling - Auto size text to fit
+  flutter_svg: # SVG - Scalable Vector Graphics - Icons
+  sensors_plus: # Sensors - Device Sensors - is super glitchy
+  url_launcher: # URL - Launch external URLs
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/Assets/Images/
+    - lib/Assets/Icons/
