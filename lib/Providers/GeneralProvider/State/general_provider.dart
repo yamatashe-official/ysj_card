@@ -7,7 +7,4 @@ class GeneralProvider with ChangeNotifier {
     currentPageIndex = index;
     notifyListeners();
   }
-
-  // ValueNotifier<bool> darkMode = ValueNotifier<bool>(false);
-  // void disposeAllStates() {}
 }
